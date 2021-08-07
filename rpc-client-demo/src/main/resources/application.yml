@@ -1,0 +1,9 @@
+thunder:
+  rpc:
+    serializer: protostuff
+    zk-config:
+      root-path: /thunder-rpc
+      zk-url: 127.0.0.1:2181
+    server-config:
+      port: 9999
+    proxy: jdk
